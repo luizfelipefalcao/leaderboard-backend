@@ -16,7 +16,7 @@ db = client.get_default_database()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://leaderboard-webapp-nine.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
